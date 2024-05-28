@@ -4,53 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knee Exercise Video Analysis with Mediapipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+        }
+        p {
+            color: #444;
+        }
+        ul {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <h1>Knee Exercise Video Analysis with Mediapipe</h1>
-    <p>This project uses the Mediapipe library to analyze a video of a knee exercise. It tracks specific landmarks on the body to calculate the angle of the knee during the exercise, counts repetitions, and provides feedback based on the knee's position and duration.</p>
-    
-    <h2>Requirements</h2>
+    <h1>Project Title: Knee Exercise Video Analysis with Mediapipe</h1>
+    <h2>Description:</h2>
+    <p>Developed a video analysis tool using Python and the Mediapipe library to track body landmarks in a knee exercise video. The tool calculates the knee angle, counts repetitions, and provides real-time feedback based on the user's performance. It utilizes computer vision techniques to process each frame of the video, detect key body landmarks, and analyze the exercise technique. The project involved integrating OpenCV for video processing, Mediapipe for pose estimation, and NumPy for mathematical operations. The final output includes a processed video with overlaid information, such as knee angle, repetition count, stage, timer, and feedback messages.</p>
+
+    <h2>Key Contributions:</h2>
     <ul>
-        <li>Python 3.6+</li>
+        <li>Implemented video capture and processing functionalities using OpenCV.</li>
+        <li>Integrated the Mediapipe Pose module for real-time pose detection.</li>
+        <li>Designed algorithms to calculate the knee angle based on detected landmarks.</li>
+        <li>Developed logic to count repetitions and provide feedback on exercise technique.</li>
+        <li>Collaborated with team members to optimize code performance and ensure accuracy of results.</li>
+        <li>Created a user-friendly interface for displaying analysis results and feedback on the video.</li>
+    </ul>
+
+    <h2>Technologies Used:</h2>
+    <ul>
+        <li>Python</li>
         <li>OpenCV</li>
         <li>Mediapipe</li>
-        <li>Numpy</li>
+        <li>NumPy</li>
     </ul>
-    
-    <h2>Installation</h2>
-    <ol>
-        <li>
-            <p><strong>Clone the repository:</strong></p>
-            <pre><code>git clone &lt;repository_url&gt;</code></pre>
-            <pre><code>cd &lt;repository_directory&gt;</code></pre>
-        </li>
-        <li>
-            <p><strong>Install the required Python packages:</strong></p>
-            <pre><code>pip install opencv-python mediapipe numpy</code></pre>
-        </li>
-    </ol>
-    
-    <h2>Running the Script</h2>
-    <ol>
-        <li>
-            <p>Place the video file (<code>knee_exercise_video.mp4</code>) in an accessible directory.</p>
-        </li>
-        <li>
-            <p>Update the path to the video file in the script if necessary:</p>
-            <pre><code>cap = cv2.VideoCapture(r"C:\path\to\your\video\knee_exercise_video.mp4")</code></pre>
-        </li>
-        <li>
-            <p>Run the script:</p>
-            <pre><code>python knee_exercise_analysis.py</code></pre>
-        </li>
-    </ol>
 
-    <h2>Script Explanation</h2>
-    <p>The script performs the following steps:</p>
-    <ol>
-        <li>Sets up the video capture and writer to process the input video and save the output.</li>
-        <li>Initializes Mediapipe's Pose module for pose detection.</li>
-        <li>Processes each frame of the video to detect body landmarks.</li>
-        <li>Calculates the angle of the knee using the detected landmarks.</li>
-        <li>Displays the calculated angle, repetition count, stage, timer, and feedback on the video.</li>
-        <li>C
+    <h2>Achievements:</h2>
+    <ul>
+        <li>Successfully completed the project within the specified timeline, meeting all project requirements.</li>
+        <li>Received positive feedback from team members and stakeholders for the accuracy and effectiveness of the analysis tool.</li>
+        <li>Presented the project during team meetings and received recognition for innovative use of computer vision techniques in fitness tracking.</li>
+    </ul>
+</body>
+</html>
