@@ -26,9 +26,10 @@
     </style>
 </head>
 <body>
-    <h1>Project Title: Knee Exercise Video Analysis with Mediapipe</h1>
-    <h2>Description:</h2>
-    <p>Developed a video analysis tool using Python and the Mediapipe library to track body landmarks in a knee exercise video. The tool calculates the knee angle, counts repetitions, and provides real-time feedback based on the user's performance. It utilizes computer vision techniques to process each frame of the video, detect key body landmarks, and analyze the exercise technique. The project involved integrating OpenCV for video processing, Mediapipe for pose estimation, and NumPy for mathematical operations. The final output includes a processed video with overlaid information, such as knee angle, repetition count, stage, timer, and feedback messages.</p>
+    <h1>Knee Exercise Video Analysis with Mediapipe</h1>
+    
+    <p><strong>Description:</strong><br>
+    Developed a video analysis tool using Python and the Mediapipe library to track body landmarks in a knee exercise video. The tool calculates the knee angle, counts repetitions, and provides real-time feedback based on the user's performance. It utilizes computer vision techniques to process each frame of the video, detect key body landmarks, and analyze the exercise technique. The project involved integrating OpenCV for video processing, Mediapipe for pose estimation, and NumPy for mathematical operations. The final output includes a processed video with overlaid information, such as knee angle, repetition count, stage, timer, and feedback messages.</p>
 
     <h2>Key Contributions:</h2>
     <ul>
