@@ -21,8 +21,8 @@
     <ol>
         <li>
             <p><strong>Clone the repository:</strong></p>
-            <pre><code>git clone &lt;repository_url&gt;
-cd &lt;repository_directory&gt;</code></pre>
+            <pre><code>git clone &lt;repository_url&gt;</code></pre>
+            <pre><code>cd &lt;repository_directory&gt;</code></pre>
         </li>
         <li>
             <p><strong>Install the required Python packages:</strong></p>
@@ -53,8 +53,4 @@ cd &lt;repository_directory&gt;</code></pre>
         <li>Processes each frame of the video to detect body landmarks.</li>
         <li>Calculates the angle of the knee using the detected landmarks.</li>
         <li>Displays the calculated angle, repetition count, stage, timer, and feedback on the video.</li>
-        <li>Counts repetitions and provides feedback based on the knee's bending duration.</li>
-        <li>Saves the processed video with the overlaid information.</li>
-    </ol>
-</body>
-</html>
+        <li>C
