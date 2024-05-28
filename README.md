@@ -10,6 +10,7 @@
             line-height: 1.6;
             margin: 20px;
             padding: 0;
+            color: #444; /* Added color property to body */
         }
         h1 {
             color: #333;
