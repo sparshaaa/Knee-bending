@@ -53,8 +53,8 @@
   <h2>Achievements:</h2>
   <ul>
     <li>Successfully completed the project within the specified timeline, meeting all project requirements.</li>
-    <li>Received positive feedback from team members and stakeholders for the accuracy and effectiveness of the analysis tool.</li>
-    <li>Presented the project during team meetings and received recognition for innovative use of computer vision techniques in fitness tracking.</li>
+    <li>Received positive feedback from team members  for the accuracy and effectiveness of the analysis tool.</li>
+    <li>Presented the  major project during Final Semester  and received recognition for innovative use of computer vision techniques in fitness tracking.</li>
   </ul>
 </body>
 </html>
